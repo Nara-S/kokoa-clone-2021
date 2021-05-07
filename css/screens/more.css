@@ -24,17 +24,18 @@
   align-items: center;
 }
 
-.more-suggestions__icon-image {
+.more-suggestions__icon img {
   width: 60px;
   height: 60px;
   border-radius: 10px;
 }
 
-.more-suggestions__icon-text {
+.more-suggestions__icon span {
   color: var(--gray);
   margin-top: 10px;
 }
 
-.opacity0 {
+.more-suggestions__icon:last-child img,
+.more-suggestions__icon:last-child span {
   opacity: 0;
 }
