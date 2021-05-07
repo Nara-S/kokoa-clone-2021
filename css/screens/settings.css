@@ -1,0 +1,57 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__setting i {
+  margin-right: 15px;
+  font-size: 22px;
+}
+
+.settings__setting span {
+  font-weight: 500;
+}
+/* .settings__setting-column:last-child {
+  opacity: 0.5;
+} */
+
+.settings__setting:last-child {
+  border: none;
+}
+
+.addons {
+  border-top: var(--main-border);
+  margin-top: 15px;
+  padding: 10px var(--horizontal-space);
+  animation: allFadeIn 1s ease-in-out;
+}
+
+.addons__addon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  font-size: 20px;
+}
+
+.addons__addon i {
+  margin-right: 15px;
+  font-size: 22px;
+}
+
+.addons__addon span {
+  font-weight: 500;
+}
+
+.addons__addon:last-child {
+  border: none;
+}
+
+.CG {
+  opacity: 0.5;
+}
